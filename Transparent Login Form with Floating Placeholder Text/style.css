@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background: url(wallpaper.jpg);
+    background-size: cover;
+    font-size: 2.2em;
+    text-align: center;
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(191, 177, 142, 0.952);
+    box-sizing: border-box;
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+}
+.box h2
+{
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+}
+.box .inputBox
+{
+    position: relative;
+
+}
+.box .inputBox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 5px solid rgb(5, 5, 5);
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+
+
+}
+.box .inputBox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+    top: -40px;
+    left: 0;
+    color: black;
+    font-size: 25px;
+}
+.box input[type="submit"]
+{
+    background: transparent;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
