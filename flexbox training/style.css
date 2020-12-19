@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;  
+    justify-content: space-evenly;
+    border-block-start: 10p;
+  }
+.ex {
+    display: flex;  
+    justify-content: space-between;
+  }
